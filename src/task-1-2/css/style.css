@@ -1,0 +1,72 @@
+body {
+    background: url('../img/fon.jpg') repeat-y 100%;
+}
+
+.blue {
+    color: darkblue;
+}
+
+.sea {
+    color: seagreen;
+    text-decoration: overline orange;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.big {
+    font-size: 2rem;
+}
+
+.small {
+    font-size: 0.8rem;
+}
+
+table {
+    border-top: 10px inset darkcyan;
+    border-left: 5px inset yellow;
+    border-right: 8px dashed red;
+    border-bottom: 5px dotted green;
+}
+
+ol {
+    list-style-type: lower-greek;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.side-panel {
+    background: url('../img/fon.jpg') repeat-y;
+    padding: 20px;
+    width: 200px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: blue;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
